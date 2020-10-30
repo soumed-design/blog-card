@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0d0d0d;
+}
+body{
+    background-color: #e2e2e2;
+}
+.center{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.3s;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 4px 7px #303030;
+    cursor: pointer;
+}
+.image{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top:0;
+    transition: all 0.3s;
+}
+.description{
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    background-color: #fcfcfc;
+    transition: all 0.3s;
+}
+h1{
+    margin: 0;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p{
+    font-size: 13px;
+    line-height: 23px;
+}
+.card:hover .description{
+    height: 0px;
+    padding: 0px;
+}
+.card:hover .image{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
